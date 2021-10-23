@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: url("https://avatanplus.com/files/resources/mid/585655a5ed767159113e9055.jpg") top left/ 100% 100% no-repeat;
+}
+
+.todo-container{
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 20px;
+}
+.add-input{
+    width: 70%;
+}
+.todo-name.done{
+    text-decoration: line-through;
+}
+.todo-name.star{
+    color: #caca11;
+}
+
+.starBtn.active{
+    color: #ffffff;
+    background: yellow;
+    border-color: yellow;
+}
+.doneBtn.active{
+    color: #ffffff;
+    background: green;
+    border-color: green;
+}
+
+
